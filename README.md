@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# build a Drum Machine React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Create React App
 
-## Available Scripts
-
-In the project directory, you can run:
+<ul>
+  <li>npx create-react-app my-app</li>
+  <li>cd my-app</li>
+  <li>npm start</li>
+ </ul>
 
 ### `npm start`
 
