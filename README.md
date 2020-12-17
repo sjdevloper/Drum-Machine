@@ -12,3 +12,16 @@
 ## Demo
 ![](Demo.png)
 
+
+
+## Installation
+
+```
+$ git clone
+$ cd random-quote-machine-reactjs
+$ npm install
+$ npm start
+```
+
+Go to `http://localhost:3000`.)
+
