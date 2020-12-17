@@ -9,7 +9,7 @@ const data = [
   { id: 'bass 3', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
   { id: 'shotgun', letter: 'D', src: 'http://david.guerrero.free.fr/Effects/ShotgunReload.wav' },
   { id: 'high hat', letter: 'Z', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
-  { id: 'drum hit', letter: 'X', src: 'http://www.masterbits.de/sc_docu/sounds1/1TM00013.MP3' },
+  { id: 'drum hit', letter: 'X', src: 'https://www.myinstants.com/media/sounds/bass-drum.mp3' },
   { id: 'laser', letter: 'C', src: 'http://www.sa-matra.net/sounds/starcontrol/Umgah-Backzip.wav'  },
 ]
 
@@ -74,7 +74,7 @@ class App extends React.Component {
         <h1>{this.state.display}</h1>
         </div>
         <div className="drum-control" id='drum-pads'>{data.map(d => (
-          <div className="drum-pad"> 
+          <div className="drum-pads"> 
           <DrumPad
             key={d.id}
             id={d.id}
